@@ -1,0 +1,17 @@
+[
+  {
+    "portable_file": "ablation_portable.py",
+    "identical_numerical_function_names": [
+      "fast_cycle_grid",
+      "fast_sparse_matrix"
+    ],
+    "identical_outer_loop_bodies": 1,
+    "status": "PASS"
+  },
+  {
+    "portable_file": "offset_portable.py",
+    "identical_numerical_function_names": [],
+    "identical_outer_loop_bodies": 1,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "paper": "Lubricants",
+  "mode": "derived",
+  "primary_selected": [
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23"
+  ],
+  "source_identity": [],
+  "full_20_raw_replay": false,
+  "thresholds_are_descriptive": true,
+  "threshold_checks": {
+    "P2_threshold_by_texture.csv": {
+      "status": "PASS",
+      "rows": 140,
+      "columns": 7,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "threshold_pct": 0.0,
+        "n": 0.0,
+        "harmonic_count": 0.0,
+        "linear_count": 0.0,
+        "harmonic_pct": 0.0,
+        "linear_pct": 0.0
+      }
+    },
+    "P2_threshold_sensitivity.csv": {
+      "status": "PASS",
+      "rows": 7,
+      "columns": 10,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "threshold_pct": 0.0,
+        "harmonic_count": 0.0,
+        "linear_count": 0.0,
+        "pooled_harmonic_pct": 0.0,
+        "pooled_linear_pct": 0.0,
+        "equal_texture_harmonic_pct": 0.0,
+        "equal_texture_linear_pct": 0.0,
+        "textures_linear_lower": 0.0,
+        "textures_tied": 0.0,
+        "textures_harmonic_lower": 0.0
+      }
+    },
+    "P2_leave_one_texture_out.csv": {
+      "status": "PASS",
+      "rows": 20,
+      "columns": 4,
+      "rtol": 1e-12,
+      "atol": 1e-12,
+      "maximum_absolute_differences": {
+        "equal_texture_harmonic_pct": 0.0,
+        "equal_texture_linear_pct": 0.0,
+        "equal_texture_reduction_percentage_points": 0.0
+      }
+    }
+  },
+  "status": "DERIVED_ONLY_PASS",
+  "not_claimed": "A new independent laboratory, calibration certificate, or raw replay of earlier Imperial/S2/S3 cohorts"
+}

@@ -1,0 +1,17 @@
+# Local original measurements and private execution directories
+local-inputs/
+local-Hannover/
+runs/
+raw/
+original_measurements/
+*.mat
+*.tdms
+*.dat
+*originals*.zip
+.env
+.env.*
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store

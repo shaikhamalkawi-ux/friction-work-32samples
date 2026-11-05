@@ -1,0 +1,27 @@
+{
+  "scope": "post-outcome descriptive threshold sensitivity of fixed worst-offset scores; no new raw replay",
+  "windows": 24857,
+  "textures": 20,
+  "primary_threshold": 5,
+  "primary_harmonic_crossings": 5038,
+  "primary_linear_crossings": 107,
+  "primary_equal_texture_harmonic_pct": 19.994638318701163,
+  "primary_equal_texture_linear_pct": 0.4260215675207316,
+  "loo_equal_texture_reduction_pp_min": 15.821679465243937,
+  "loo_equal_texture_reduction_pp_max": 20.59854394861098,
+  "low_threshold_exception": [
+    {
+      "threshold_pct": 0.5,
+      "texture": "S17",
+      "n": 1109,
+      "harmonic_count": 1108,
+      "linear_count": 1109,
+      "harmonic_pct": 99.90982867448152,
+      "linear_pct": 100.0
+    }
+  ],
+  "linear_smaller_paired_windows": 24840,
+  "harmonic_smaller_paired_windows": 17,
+  "thresholds_are_descriptive_not_operating_tolerances": true,
+  "no_universal_stochastic_dominance_claim": true
+}

@@ -1,0 +1,7 @@
+result_component,execution_mode,scope,completed_verification,boundary
+Hannover primary S4-S23,raw (default all20),20 sources supported; 3 sources / 3751 windows rerun in MR2,SUBSET PASS: exact checked values,Full20 raw replay NOT claimed by this test
+Force-information ablation,raw --diagnostics,original18 cohort supported; 3 sources rerun,SUBSET PASS: exact checked values,No extension of diagnostic cohort to S7/S13
+Offset aggregation,raw --diagnostics,original18 cohort supported; 3 sources rerun,SUBSET PASS: exact checked values,Fixed16 offsets remain dependent
+Threshold and equal-texture weighting,derived or complete20 raw followed by audit,24857 saved windows /20 textures audited,DERIVED PASS,Not independent raw reacquisition
+Independent S7/S13 raw replay,raw with correct original archives,Source identity available; reacquisition failed,NOT EXECUTED IN MR2,Original Colab scores retained; no substituted raw bytes
+Earlier Imperial/S2/S3,historical source-specific protocols,outside portable primary runner,NOT CERTIFIED AS COMPLETE RAW REPLAY,Do not pool source programmes

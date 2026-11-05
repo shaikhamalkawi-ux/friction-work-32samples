@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use the code, please cite this software after the final release and
+  the associated article when published.
+title: 'H2 Lubricants: Sparse Force Sampling and Numerical Friction-Loop Work — Code
+  and Derived Results'
+type: software
+version: 0.1.0-rc1
+authors:
+- given-names: Ghassan
+  family-names: Malkawi
+- given-names: Hussien
+  family-names: Alwedyan
+- given-names: Ashraf
+  family-names: AlShalalfeh
+- given-names: Abdulwehab
+  family-names: Ibrahim
+- given-names: Rafiq
+  family-names: Manna
+- given-names: Mohanad
+  family-names: Alata
+- given-names: Ahmed
+  family-names: Elsayed
+keywords:
+- friction hysteresis
+- reproducibility
+- numerical reconstruction
+- source-derived results

@@ -1,0 +1,80 @@
+[
+  {
+    "texture": "S4",
+    "rows": 1265,
+    "columns": 24,
+    "PASS": true,
+    "maximum_absolute_difference": 0.0,
+    "numeric_differences": {
+      "window_index": 0.0,
+      "window_start_s": 0.0,
+      "source_dense_points": 0.0,
+      "r2_displacement": 0.0,
+      "x_span_signal_units": 0.0,
+      "force_span_signal_units": 0.0,
+      "work_reference_signal_units": 0.0,
+      "absolute_work_scale": 0.0,
+      "harmonic_worst_abs_work_error": 0.0,
+      "linear_worst_abs_work_error": 0.0,
+      "harmonic_worst_pct": 0.0,
+      "linear_worst_pct": 0.0,
+      "harmonic_worst_range_normalized": 0.0,
+      "linear_worst_range_normalized": 0.0
+    },
+    "seconds": 7.601073980331421,
+    "source_sha256": "9affb856ffbeaf4d082699758fd6f240702073fa245ab99770cc6f3fc6be51ca",
+    "raw_kind": "user-archived original source; exact locked project hash"
+  },
+  {
+    "texture": "S8",
+    "rows": 1223,
+    "columns": 24,
+    "PASS": true,
+    "maximum_absolute_difference": 0.0,
+    "numeric_differences": {
+      "window_index": 0.0,
+      "window_start_s": 0.0,
+      "source_dense_points": 0.0,
+      "r2_displacement": 0.0,
+      "x_span_signal_units": 0.0,
+      "force_span_signal_units": 0.0,
+      "work_reference_signal_units": 0.0,
+      "absolute_work_scale": 0.0,
+      "harmonic_worst_abs_work_error": 0.0,
+      "linear_worst_abs_work_error": 0.0,
+      "harmonic_worst_pct": 0.0,
+      "linear_worst_pct": 0.0,
+      "harmonic_worst_range_normalized": 0.0,
+      "linear_worst_range_normalized": 0.0
+    },
+    "seconds": 6.829083442687988,
+    "source_sha256": "088030ad0d1d95240a9acbd9f698583ace57a5460a37f39b7ea7a5da3014f017",
+    "raw_kind": "user-archived original source; exact locked project hash"
+  },
+  {
+    "texture": "S19",
+    "rows": 1263,
+    "columns": 24,
+    "PASS": true,
+    "maximum_absolute_difference": 0.0,
+    "numeric_differences": {
+      "window_index": 0.0,
+      "window_start_s": 0.0,
+      "source_dense_points": 0.0,
+      "r2_displacement": 0.0,
+      "x_span_signal_units": 0.0,
+      "force_span_signal_units": 0.0,
+      "work_reference_signal_units": 0.0,
+      "absolute_work_scale": 0.0,
+      "harmonic_worst_abs_work_error": 0.0,
+      "linear_worst_abs_work_error": 0.0,
+      "harmonic_worst_pct": 0.0,
+      "linear_worst_pct": 0.0,
+      "harmonic_worst_range_normalized": 0.0,
+      "linear_worst_range_normalized": 0.0
+    },
+    "seconds": 7.320603847503662,
+    "source_sha256": "2a42dc58576a20acb9a0ae3be88b2939a6da8607e34af49a0b4a709075a37089",
+    "raw_kind": "user-archived original source; exact locked project hash"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "paper": "Lubricants",
+  "mode": "raw",
+  "primary_selected": [
+    "S4",
+    "S8",
+    "S19"
+  ],
+  "source_identity": [
+    {
+      "texture": "S4",
+      "source_sha256": "9affb856ffbeaf4d082699758fd6f240702073fa245ab99770cc6f3fc6be51ca",
+      "canonical_mat_sha256": "ffa6814ba12266f660975a7e36daa5d1b277376fd7939daf8c3801c43ef7d099"
+    },
+    {
+      "texture": "S8",
+      "source_sha256": "088030ad0d1d95240a9acbd9f698583ace57a5460a37f39b7ea7a5da3014f017",
+      "canonical_mat_sha256": "c4c1fcc381b562362833b3ec502b4b1c2cefbd3cd2b179d726bcb34d92bfba0e"
+    },
+    {
+      "texture": "S19",
+      "source_sha256": "2a42dc58576a20acb9a0ae3be88b2939a6da8607e34af49a0b4a709075a37089",
+      "canonical_mat_sha256": "3bb822f0d9688e32c1739af9dcb2f4d88b72faf622b954bdb42efe3be04afaea"
+    }
+  ],
+  "full_20_raw_replay": false,
+  "thresholds_are_descriptive": true,
+  "primary_checks": {
+    "S4": {
+      "status": "PASS",
+      "rows": 1265,
+      "columns": 24,
+      "rtol": 1e-11,
+      "atol": 1e-11,
+      "maximum_absolute_differences": {
+        "window_index": 0.0,
+        "window_start_s": 0.0,
+        "source_dense_points": 0.0,
+        "r2_displacement": 0.0,
+        "x_span_signal_units": 0.0,
+        "force_span_signal_units": 0.0,
+        "work_reference_signal_units": 0.0,
+        "absolute_work_scale": 0.0,
+        "harmonic_worst_abs_work_error": 0.0,
+        "linear_worst_abs_work_error": 0.0,
+        "harmonic_worst_pct": 0.0,
+        "linear_worst_pct": 0.0,
+        "harmonic_worst_range_normalized": 0.0,
+        "linear_worst_range_normalized": 0.0
+      }
+    },
+    "S8": {
+      "status": "PASS",
+      "rows": 1223,
+      "columns": 24,
+      "rtol": 1e-11,
+      "atol": 1e-11,
+      "maximum_absolute_differences": {
+        "window_index": 0.0,
+        "window_start_s": 0.0,
+        "source_dense_points": 0.0,
+        "r2_displacement": 0.0,
+        "x_span_signal_units": 0.0,
+        "force_span_signal_units": 0.0,
+        "work_reference_signal_units": 0.0,
+        "absolute_work_scale": 0.0,
+        "harmonic_worst_abs_work_error": 0.0,
+        "linear_worst_abs_work_error": 0.0,
+        "harmonic_worst_pct": 0.0,
+        "linear_worst_pct": 0.0,
+        "harmonic_worst_range_normalized": 0.0,
+        "linear_worst_range_normalized": 0.0
+      }
+    },
+    "S19": {
+      "status": "PASS",
+      "rows": 1263,
+      "columns": 24,
+      "rtol": 1e-11,
+      "atol": 1e-11,
+      "maximum_absolute_differences": {
+        "window_index": 0.0,
+        "window_start_s": 0.0,
+        "source_dense_points": 0.0,
+        "r2_displacement": 0.0,
+        "x_span_signal_units": 0.0,
+        "force_span_signal_units": 0.0,
+        "work_reference_signal_units": 0.0,
+        "absolute_work_scale": 0.0,
+        "harmonic_worst_abs_work_error": 0.0,
+        "linear_worst_abs_work_error": 0.0,
+        "harmonic_worst_pct": 0.0,
+        "linear_worst_pct": 0.0,
+        "harmonic_worst_range_normalized": 0.0,
+        "linear_worst_range_normalized": 0.0
+      }
+    }
+  },
+  "primary_rows": 3751,
+  "threshold_audit": "NOT RUN from a partial raw cohort; use --mode derived separately for the frozen full cohort",
+  "diagnostic_cohort": [
+    "S4",
+    "S8",
+    "S19"
+  ],
+  "ablation_checks": {
+    "status": "PASS",
+    "rows": 3751,
+    "columns": 16,
+    "rtol": 1e-10,
+    "atol": 1e-08,
+    "maximum_absolute_differences": {
+      "window": 0.0,
+      "n_dense": 0.0,
+      "work": 0.0,
+      "harmonic_orig_worst_pct": 0.0,
+      "harmonic_on_full_x_worst_pct": 0.0,
+      "orig_minus_full_x_max_normref_pct": 0.0,
+      "orig_minus_full_x_max_range_norm": 0.0,
+      "dense_force_harmonic_full_x_error_pct": 0.0,
+      "sparse_vs_dense_force_harmonic_max_pct": 0.0,
+      "frozen_linear_worst_pct": 0.0,
+      "max_harmonic_orig_replay_diff_pct": 0.0
+    }
+  },
+  "offset_checks": {
+    "status": "PASS",
+    "rows": 3751,
+    "columns": 13,
+    "rtol": 1e-10,
+    "atol": 1e-08,
+    "maximum_absolute_differences": {
+      "window_index": 0.0,
+      "harm_worst_pct": 0.0,
+      "lin_worst_pct": 0.0,
+      "harm_mean_offset_pct": 0.0,
+      "lin_mean_offset_pct": 0.0,
+      "harm_median_offset_pct": 0.0,
+      "lin_median_offset_pct": 0.0,
+      "harm_maximum_minus_median_pct": 0.0,
+      "lin_maximum_minus_median_pct": 0.0,
+      "harm_wins_num_offsets": 0.0,
+      "linear_wins_num_offsets": 0.0,
+      "exact_tie_num_offsets": 0.0
+    }
+  },
+  "status": "EXPLICIT_RAW_SUBSET_PASS",
+  "not_claimed": "A new independent laboratory, calibration certificate, or raw replay of earlier Imperial/S2/S3 cohorts"
+}

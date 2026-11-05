@@ -1,0 +1,20 @@
+
+test_boolean_mismatch_is_rejected (__main__.Guards.test_boolean_mismatch_is_rejected) ... ok
+test_column_mismatch_is_rejected (__main__.Guards.test_column_mismatch_is_rejected) ... ok
+test_derived_mode_cannot_claim_raw_diagnostics (__main__.Guards.test_derived_mode_cannot_claim_raw_diagnostics) ... ok
+test_derived_mode_cannot_impersonate_raw_subset (__main__.Guards.test_derived_mode_cannot_impersonate_raw_subset) ... ok
+test_disabled_assertions_rejected (__main__.Guards.test_disabled_assertions_rejected) ... ok
+test_duplicate_selection_rejected (__main__.Guards.test_duplicate_selection_rejected) ... ok
+test_exact_comparison_pass (__main__.Guards.test_exact_comparison_pass) ... ok
+test_existing_output_rejected (__main__.Guards.test_existing_output_rejected) ... ok
+test_missing_raw_input_rejected (__main__.Guards.test_missing_raw_input_rejected) ... ok
+test_missing_selected_texture_rejected (__main__.Guards.test_missing_selected_texture_rejected) ... ok
+test_missingness_mismatch_is_rejected (__main__.Guards.test_missingness_mismatch_is_rejected) ... ok
+test_numerical_mismatch_is_rejected (__main__.Guards.test_numerical_mismatch_is_rejected) ... ok
+test_out_of_scope_selection_rejected (__main__.Guards.test_out_of_scope_selection_rejected) ... ok
+test_source_hash_mismatch_rejected (__main__.Guards.test_source_hash_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 9.004s
+
+OK

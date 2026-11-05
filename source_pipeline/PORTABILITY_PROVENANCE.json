@@ -1,0 +1,16 @@
+[
+  {
+    "original_filename": "ablation_18_source_replay.py",
+    "original_sha256": "770b0133ef10ddf0bc44172f00c1ca50a01db5a0ee6706bf65499092f8b8780a",
+    "portable_file": "ablation_portable.py",
+    "portable_sha256": "9921bb89ebfe5861512c9b40ec55a2469f5dff9468a7593d093ad0e994bec8b0",
+    "change_scope": "CLI/path configuration and explicit execution subset/reporting only; numerical kernels unchanged"
+  },
+  {
+    "original_filename": "offset_sensitivity_18.py",
+    "original_sha256": "4659aa2c3637a75723ec361712a73e8c52edd9e5ec16b8b376a407fa499eaf15",
+    "portable_file": "offset_portable.py",
+    "portable_sha256": "1f23451c639131cc037eeabf55abbb9714d19f0d0afe4a02e96cef7b7affa51b",
+    "change_scope": "CLI/path configuration and explicit execution subset/reporting only; numerical kernels unchanged"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "synthetic_only": true,
+  "n": 640,
+  "q": 32,
+  "sparse_force_max_abs": 1.4988010832439613e-14,
+  "closed_polygon_work": -3.141542187887878,
+  "continuous_work": -3.141592653589793,
+  "polygon_identity_abs_error": 4.440892098500626e-16,
+  "alias_identity_max_abs_error": 5.117875266520904e-15,
+  "no_measured_alias_mechanism_identified": true
+}

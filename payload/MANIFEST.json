@@ -1,0 +1,40 @@
+{
+  "source_pipeline/expected/R23_18texture_window_ablation.csv": {
+    "encoding": "base64-gzip",
+    "sha256": "b6c94613df3348cece1c06fcf6d810155313fd0e3268edc2c51f167ec08f286d",
+    "bytes": 4563616,
+    "compressed_sha256": "b1f1996c483640cd5cb92b62060d8538407acebbcf496ef0337bd085f056588c",
+    "chunks": [
+      "payload/asset01_chunk01.b64",
+      "payload/asset01_chunk02.b64",
+      "payload/asset01_chunk03.b64",
+      "payload/asset01_chunk04.b64"
+    ]
+  },
+  "source_pipeline/expected/R24_18texture_window_offset.csv": {
+    "encoding": "base64-gzip",
+    "sha256": "7cd8d58d4d1f6501e3f78633a2e7d2611db3170b1dd224e70f5f156356287b01",
+    "bytes": 3209369,
+    "compressed_sha256": "a365b2f0fb1c0c049935510d1f12305df1f753209cf24187667297e9a509689a",
+    "chunks": [
+      "payload/asset02_chunk01.b64",
+      "payload/asset02_chunk02.b64",
+      "payload/asset02_chunk03.b64",
+      "payload/asset02_chunk04.b64"
+    ]
+  },
+  "source_pipeline/Frozen_Primary_20Texture.zip": {
+    "encoding": "base64",
+    "sha256": "c9674370bf7a4ffe0b4c3c20c5fb7f5d810a872f334643010d7f4b7f82839521",
+    "bytes": 2507329,
+    "compressed_sha256": "c9674370bf7a4ffe0b4c3c20c5fb7f5d810a872f334643010d7f4b7f82839521",
+    "chunks": [
+      "payload/asset03_chunk01.b64",
+      "payload/asset03_chunk02.b64",
+      "payload/asset03_chunk03.b64",
+      "payload/asset03_chunk04.b64",
+      "payload/asset03_chunk05.b64",
+      "payload/asset03_chunk06.b64"
+    ]
+  }
+}
