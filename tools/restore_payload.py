@@ -33,6 +33,28 @@ def main():
         path.parent.mkdir(parents=True,exist_ok=True)
         path.write_bytes(raw)
         print('RESTORED',rel)
+    # Git's text transport normalizes CRLF in CSVs. Recover canonical original
+    # byte streams from the already checksum-verified frozen derived-only ZIP.
+    # The ZIP contains no original laboratory measurement arrays.
+    import zipfile
+    expected=json.loads((ROOT/'SHA256SUMS.json').read_text())
+    with zipfile.ZipFile(ROOT/'source_pipeline/Frozen_Primary_20Texture.zip') as archive:
+        if archive.testzip() is not None:raise ValueError('frozen derived ZIP CRC failure')
+        for n in range(4,24):
+            tex=f'S{n}'
+            rel=f'MR1_Derived_Audit/inputs/P2/{tex}_windows.csv'
+            member=f'derived/{tex}/{tex}_windows.csv'
+            data=archive.read(member)
+            if sha(data)!=expected[rel]:raise ValueError('frozen derived CSV mismatch: '+rel)
+            p=ROOT/rel
+            p.parent.mkdir(parents=True,exist_ok=True)
+            if not p.exists() or sha(p.read_bytes())!=expected[rel]:p.write_bytes(data)
+    # This metadata table also used CRLF in the frozen research package.
+    rel='RESULT_TO_COMMAND.csv'
+    p=ROOT/rel
+    data=p.read_bytes().replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')
+    if sha(data)!=expected[rel]:raise ValueError('result-to-command metadata mismatch')
+    if sha(p.read_bytes())!=expected[rel]:p.write_bytes(data)
     print('PAYLOAD_RESTORE_PASS')
 if __name__=='__main__':
     try:main()
